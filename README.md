@@ -71,12 +71,14 @@ We aim for **5000+ stars** and a vibrant ecosystem.
 Developing a high-tier agentic framework requires significant R&D. If Fast-ASDLC helps your company save time and money, please consider supporting the author.
 
 ### 🌍 Global / EU Supporters
-- **GitHub Sponsors:** [TBD](TBD)
+- **Cardholder:** `DMITRII SHAPIEVSKII`
 - **IBAN:** ` `
+- **Mastercard:**  ` `
+- **GitHub Sponsors:** [TBD](TBD)
 
 ### 🇷🇺 Russian Supporters
-- **Boosty:** [TBD](TBD)
 - **Card / Sber:** ` `
+- **Boosty:** [TBD](TBD)
 
 ---
 *Created with ❤️ by Dmitrii Shapievskii. Join the AI-native revolution.*
