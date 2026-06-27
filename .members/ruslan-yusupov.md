@@ -1,0 +1,21 @@
+# Профиль: Руслан Юсупов
+
+- **Тайм-бюджет:** до 2 часов в неделю
+- **Роли в SAFe:** SPC / RTE / Epic Owner / Product Manager / Team Coach
+- **Ключевая экспертиза:** 
+    - внедрение SAFe из роли SPC (от VMO+LPM до команд) и RTE (ART & teams, LACE)
+    - эксперт по Agile/SAFe/OKR: внедрение, обучение, консалтинг
+    - SAFe® Practice Consultant, SAFe® Premier Trainer, OKR-тренер
+- **Дополнительно:** 
+    - провокативный коучинг =)
+    - публичные кейсы: Nexters & NX Studio, 12storeez, Газпром нефть, Монитор Электрик
+    - ключевые метрики: предсказуемость реализации стратегии, скорость/качество поставки, производительность и вовлеченность связки бизнес+производство
+    - с 2001 по 2017: разработчик, руководитель разработки, технический директор
+    - 2017-2020: Agile-коуч и RTE в S7 Travel Retail и Ингосстрах
+    - 2020-2023: партнёр ScrumTrek
+    - 2023+: партнёр в Лидерах изменений https://communities.changeleaders.ru/expert/ruslan_yusupov/
+    - активист сообществ и организатор конференций Enterprise Agile Russia, OKR Russia, Гибкое госуправление https://communities.changeleaders.ru/
+    - ведущий подкаста "Лидеры изменений" https://changeleaders.mave.digital/
+    - подзаброшенный тг-канал: https://t.me/RuslanYusupov_SinceRus
+    - LinkedIn https://www.linkedin.com/in/yusupov-ruslan/
+    - Telegram https://t.me/yusupov_ruslan
