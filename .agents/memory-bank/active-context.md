@@ -3,7 +3,7 @@
 ## Current System State
 - **Phase:** Phase 0 COMPLETED — Fast-ASDLC onboarding finished. Ready for Phase 1 (Analysis & Design).
 - **Status:** System infrastructure provisioned. Agent workforce configured.
-- **Last Action:** Workforce manifests generated (rules + workflows for Analyst, Architect, Programmer, QA).
+- **Last Action:** OpenCode agent provisioning completed with redirect files in `.clinerules/`.
 
 ## System Readiness
 ✅ **Project Brief:** `/agents/memory-bank/project-brief.md` — Product vision, language policy, domain boundaries defined

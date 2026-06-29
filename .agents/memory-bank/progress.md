@@ -18,13 +18,15 @@
 - [x] Tool configuration updated:
   - [x] `.clinerules` (OpenCode + Language Policy)
   - [x] `mcp-settings.json`
+- [x] OpenCode Agent Provisioning completed:
+  - [x] Created redirect files in `.clinerules/` (6 roles)
+  - [x] Created redirect files in `.clinerules/workflows/` (10 workflows)
 - [x] Backlog task updated with artifact links
 
 ## Current Phase: COMPLETED
 **Phase 0 (Infrastructure Setup)** — Fast-ASDLC onboarding is complete.
 
 ## Next Phase: Phase 1 (Analysis & Design)
-- [ ] Create first product backlog item
 - [ ] Analyst Agent executes use case analysis
 - [ ] Human HITL review
 - [ ] Architect Agent executes C4 modeling

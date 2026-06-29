@@ -1,5 +1,58 @@
 # Decision Log
 
+## 2026-06-29 — OpenCode Agent Provisioning with Redirect Files
+
+### Context
+Executing point 4 from `.backlog/001-fast-sdlc-onboarding.md` - provisioning agents in OpenCode runtime environment.
+
+### Approach
+Instead of copying full files, created redirect files that contain instructions to read source files from `/.agents/`.
+
+### Changes Made
+
+1. **Created `.clinerules/` directory** — container for agent rules
+2. **Created `.clinerules/workflows/` directory** — container for agent workflows
+3. **Deployed 6 role redirect files** in `.clinerules/`:
+   - `meta-agent.md` → `/.agents/rules/meta-agent.md`
+   - `analyst.md` → `/.agents/rules/analyst.md`
+   - `architect.md` → `/.agents/rules/architect.md`
+   - `programmer.md` → `/.agents/rules/programmer.md`
+   - `qa.md` → `/.agents/rules/qa.md`
+   - `fast-guardian.md` → `/.agents/rules/fast-guardian.md`
+
+4. **Deployed 10 workflow redirect files** in `.clinerules/workflows/`:
+   - `meta-agent.md` → `/.agents/workflows/meta-agent.md`
+   - `meta-agent-bootstrap-workforce.md` → `/.agents/workflows/meta-agent-bootstrap-workforce.md`
+   - `analyst.md` → `/.agents/workflows/analyst.md`
+   - `architect.md` → `/.agents/workflows/architect.md`
+   - `programmer.md` → `/.agents/workflows/programmer.md`
+   - `qa.md` → `/.agents/workflows/qa.md`
+   - `qa-generate-test-suite.md` → `/.agents/workflows/qa-generate-test-suite.md`
+   - `qa-execute-dynamic-testing.md` → `/.agents/workflows/qa-execute-dynamic-testing.md`
+   - `qa-execute-non-functional-testing.md` → `/.agents/workflows/qa-execute-non-functional-testing.md`
+   - `fast-guardian-fine-tune-agent.md` → `/.agents/workflows/fast-guardian-fine-tune-agent.md`
+
+5. **Skipped MCP configuration** — will be done later per user request
+
+### Rationale
+- **Single Source of Truth:** Changes to `/.agents/` automatically reflect in OpenCode
+- **No duplication:** No need to maintain two copies of rules
+- **Human-readable:** Clear instructions in each redirect file
+- **Portability:** Works across machines (no absolute paths)
+
+### Files Created
+- `/.clinerules/meta-agent.md`
+- `/.clinerules/analyst.md`
+- `/.clinerules/architect.md`
+- `/.clinerules/programmer.md`
+- `/.clinerules/qa.md`
+- `/.clinerules/fast-guardian.md`
+- `/.clinerules/workflows/*.md` (10 files)
+
+### Notes
+- MCP provisioning skipped (user decision)
+- This approach is for human readers; OpenCode will need to follow the redirects manually or we may add auto-resolution later
+
 ## 2026-06-28 — Relative Paths for Portability
 
 ### Context
